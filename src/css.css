@@ -298,7 +298,7 @@ code:before {content: "Code: ";display: block;border-bottom: 1px solid;font-size
 #like-box [class*="top-like"] {display: inline-block;margin: 10px}
 .top-like-google {position: relative;top: -4px}
 /* Mobile */
-@media only screen and (max-device-width: 700px) {
+@media screen and (max-width: 639px) {
 #page-top,#right-column,.content-text,.post-new .prefix {display: none}
 .nav-list-network,li.list-row.nav-posting,.list-row.nav-logout {display: none!important}
 #main-post, #list-cate, .list-load {float: none}
