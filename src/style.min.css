@@ -290,7 +290,7 @@ code:before {content: "Code: ";display: block;border-bottom: 1px solid;font-size
 #comment-post + .right-hot-topic .row-topic-right .text-title {bottom: 0}
 .logo-image,#fanpage {display: inline-block;margin-right: 5px;padding: 5px;font-size: 0}
 #fanpage iframe {border: 1px solid #ccc!important}
-#logo-blog .logo-image a {min-height: 100px;display: block;background: transparent url(http://localhost/demo/1/blog/logo.png) no-repeat center center;min-width: 400px}
+#logo-blog .logo-image a {min-height: 100px;display: block;background: transparent url(https://rawgit.com/markai30/blog/master/src/logo.png) no-repeat center center;min-width: 400px}
 .logo-image {float: left;line-height: 130px}
 #logo-blog {display: block;width: 100%;text-align: right;padding: 0 10px 0 10px;background: white;min-height: 160px}
 #fanpage .fb_iframe_widget {border: 1px solid #ccc}
