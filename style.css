@@ -324,7 +324,7 @@ a[href*="vcplayer"][href$="#framepost"]:after {content: "Xem Video";font-size: 1
 
 a[href*="vcplayer"][href$="#framepost"]:hover:before {background: #CC181E}
 /* Mobile */
-@media screen and (max-width:799px) {
+@media only screen and (max-device-width: 700px) {
 #page-top,#right-column,.content-text,.post-new .prefix {display: none}
 .nav-list-network,li.list-row.nav-posting,.list-row.nav-logout {display: none!important}
 .nav-logo a[href="/"] {display: none!important;}
@@ -361,6 +361,8 @@ li.list-row.nav-catalogue {float: right}
 .change-comment li {display: block;margin: 0 15px 10px 15px}
 .list-comment-google {float: inherit}
 .change-comment {text-align: center}
+.edit-post a {display: block;width: 100%;}
+.edit-post a[href="javascript:;"] {display: none!important;}
 .share-post.row-bottom-post {text-align: center;padding-bottom: 10px}
 .share-post.row-bottom-post .sharepost {float: none;line-height: 3px}
 .timeup {position: relative;text-align: right}
