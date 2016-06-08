@@ -12,7 +12,7 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .list-forum {display: none;}
 #result-post {float: left;}
 .post-new {margin-bottom: 20px;background: white;position: relative;width: 100%;}
-.post-new:first-child .head-news .prefix {position: absolute;top: 5px;background: #78b43d;font-weight: bold;color: #FFF;padding: 2px 10px;left: 5px;width: inherit;}
+.post-new:first-child .head-news .prefix {position: absolute;top: 5px;background: #25AF61;font-weight: bold;color: #FFF;padding: 2px 10px;left: 5px;width: inherit;}
 #next-post .end {display: none;}
 .title-load {margin: 0;padding: 2px;display: block;float: left;word-wrap: break-word;font-weight: bold;color: black!important;font-size: 13px;}
 .content-text {display: none;float: left;}
@@ -24,15 +24,15 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .post-new:first-child .content-text {display: block;}
 .post-new:first-child .text-news {padding-left: inherit;padding: 5px;}
 .head-news {float: left;}
-.prefix {display: block;color: #78B43D;text-transform: uppercase;}
+.prefix {display: block;color: #25AF61;text-transform: uppercase;}
 .post-new:first-child .timeup {opacity: 1;height: inherit;}
 #next-post {display: block;text-align: center;margin-bottom: 10px;}
-#next-post a {display: inline-block;background: #78B43D;color: white;font-size: 30px;cursor: pointer;text-transform: uppercase;}
+#next-post a {display: inline-block;background: #25AF61;color: white;font-size: 30px;cursor: pointer;text-transform: uppercase;}
 #next-post a i {margin-right: 10px;padding: 5px 10px 5px 10px;}
 #next-post a span {padding: 5px 20px 5px 0px;}
 .application_footer_spacer {float: left;background: black;margin-top: 15px;color: #99979c;background-color: #2a2730;padding: 2px 5px;}
 .application_footer_spacer a {color: white;}
-#head-mobile {position: fixed;top: 0;left: 0;right: 0;z-index: 99;background: #78B43D;border-bottom: 1px solid #ccc;}
+#head-mobile {position: fixed;top: 0;left: 0;right: 0;z-index: 99;background: #25AF61;border-bottom: 1px solid #ccc;}
 #head-mobile ul {text-align: center;}
 .item-nav {display: inline-block;}
 .ul-main {display: none;}
@@ -40,19 +40,19 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .item-list {float: right;border-left: 1px solid #fff;}
 .btt-item {padding: 5px 10px;font-size: 30px;color: white;display: block;}
 .list-nav {display: block;}
-.item-logo a {padding: 5px 10px;font-size: 30px;color: white;font-weight: bold;text-transform: uppercase;display: block;}
+.item-logo a {position: relative;padding: 5px 10px;font-size: 30px;color: white;font-weight: bold;text-transform: uppercase;display: block;}
 #mpage-body {margin-top: 50px;}
 .ul-show.active + ul {display: block;}
-.ul-main {position: absolute;width: 270px;right: 0;background: white;border: 1px solid #78B43D;}
-.ul-main li {padding: 2px;display: inline-block;width: 41%;margin: 5px 5px;background: #78B43D;}
+.ul-main {position: absolute;width: 270px;right: 0;background: white;border: 1px solid #25AF61;}
+.ul-main li {padding: 2px;display: inline-block;width: 41%;margin: 5px 5px;background: #25AF61;}
 .ul-main li a {color: white!important;white-space: nowrap;max-width: 90%;overflow: hidden;text-overflow: ellipsis;}
 .item-search .ul-main {left: 0;}
 .item-search form {display: block;margin: 10px 0;}
 .item-search .ul-main .form-control {padding: 15px 5px;margin-right: 5px;}
-.item-search .ul-main .btt-submit {padding: 12px 13px;font-family: FontAwesome;background: #78B43D;color: white;border: 0;font-size: 20px;}
+.item-search .ul-main .btt-submit {padding: 12px 13px;font-family: FontAwesome;background: #25AF61;color: white;border: 0;font-size: 20px;}
 .img_link {font-size: 0;min-width: 100%;display: block;min-height: 100px;}
 #title-post {margin: 10px 0 0 0;}
-.line-title, .tag-title,.list-comment-face {background: #78B43D;font-size: 20px;padding: 5px;color: white;width: inherit;width: 100%;}
+.line-title, .tag-title,.list-comment-face {background: #25AF61;font-size: 20px;padding: 5px;color: white;width: inherit;width: 100%;}
 .line-title a {color: white!important;line-height: inherit!important;padding: 0!important;}
 #title-post a {font-size: 22px;display: block;color: black;line-height: 35px;padding: 5px;}
 .content {background: white;padding: 5px;width: initial;margin: 10px 0;}
@@ -72,3 +72,6 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .line-header.author-time {float: right;padding: 0 5px;}
 .post_header {padding: 0 5px;width: inherit;}
 .load-post-img img {border-right: 1px solid #ccc;}
+.item-logo a img {height: 32px;line-height: 66px;}
+
+.item-logo a:before {content: "";display: inline-block;background: #25AF61 url(https://cdn.rawgit.com/markai30/blog/master/small.png) center center no-repeat;width: 44px;height: 41px;position: absolute;left: -43px;top: 0;}
