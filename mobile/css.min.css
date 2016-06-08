@@ -24,7 +24,7 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .post-new:first-child .content-text {display: block;}
 .post-new:first-child .text-news {padding-left: inherit;padding: 5px;}
 .head-news {float: left;width: initial;}
-.prefix {display: block;color: #25AF61;text-transform: uppercase;}
+.prefix {display: block;color: #25AF61;text-transform: uppercase;    padding: 2px 0;margin-bottom: 5px;}
 .post-new:first-child .timeup {opacity: 1;height: inherit;}
 #next-post {display: block;text-align: center;margin-bottom: 10px;}
 #next-post a {display: inline-block;background: #25AF61;color: white;font-size: 30px;cursor: pointer;text-transform: uppercase;}
