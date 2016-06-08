@@ -17,13 +17,13 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .title-load {margin: 0;padding: 2px;display: block;float: left;word-wrap: break-word;font-weight: bold;color: black!important;font-size: 13px;}
 .content-text {display: none;float: left;}
 .timeup {text-align: right;clear: both;opacity: 0;height: 0;}
-.img-news {width: 90px;float: left;height: 90px;position: relative;}
-.text-news {padding-left: 96px;float: none;}
+.img-news {width: 90px;height: 90px;position: relative;display: inline-block;float: left;}
+.text-news {padding-left: 100px;width: initial;float: initial;}
 .post-new:first-child .img-news {height: inherit;float: none;width: 100%;}
 .post-new:first-child .title-load {font-size: 18px;margin: 4px 0;}
 .post-new:first-child .content-text {display: block;}
 .post-new:first-child .text-news {padding-left: inherit;padding: 5px;}
-.head-news {float: left;}
+.head-news {float: left;width: initial;}
 .prefix {display: block;color: #25AF61;text-transform: uppercase;}
 .post-new:first-child .timeup {opacity: 1;height: inherit;}
 #next-post {display: block;text-align: center;margin-bottom: 10px;}
@@ -41,7 +41,7 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .btt-item {padding: 5px 10px;font-size: 30px;color: white;display: block;}
 .list-nav {display: block;}
 .item-logo a {position: relative;padding: 5px 10px;font-size: 30px;color: white;font-weight: bold;text-transform: uppercase;display: block;}
-#mpage-body {margin-top: 50px;}
+#mpage-body {margin-top: 50px;overflow: hidden;}
 .ul-show.active + ul {display: block;}
 .ul-main {position: absolute;width: 270px;right: 0;background: white;border: 1px solid #25AF61;}
 .ul-main li {padding: 2px;display: inline-block;width: 41%;margin: 5px 5px;background: #25AF61;}
@@ -73,5 +73,4 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .post_header {padding: 0 5px;width: inherit;}
 .load-post-img img {border-right: 1px solid #ccc;}
 .item-logo a img {height: 32px;line-height: 66px;}
-
 .item-logo a:before {content: "";display: inline-block;background: #25AF61 url(https://cdn.rawgit.com/markai30/blog/master/small.png) center center no-repeat;width: 44px;height: 41px;position: absolute;left: -43px;top: 0;}
