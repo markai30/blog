@@ -316,9 +316,7 @@ code:before {content: "Code: ";display: block;border-bottom: 1px solid;font-size
 .item-tags.select {background: red;color: white;}
 #ads-bottom + div[style^="overflow"] {overflow: hidden!important;}
 #ads-bottom + div[style^="overflow"] iframe {width: 100%!important;}
-a[href*="vcplayer"][href$="#framepost"]:before {content: "\f04b";font-family: FontAwesome;font-size: 64px;position: absolute;color: white;text-align: center;top: 30%;padding: 5px 30px;line-height: 77px;background: black;border-radius: 6px;margin-left: -44px;}
-a[href*="vcplayer"][href$="#framepost"] {position: relative;text-align: center}
-a[href*="vcplayer"][href$="#framepost"]:hover:before {background: #CC181E}
+a[href*="vcplayer"][href$="#framepost"] {position: relative;text-align: center;min-height: 300px;}
 /* Mobile */
 @media screen and (max-width:799px) {
 #page-top,#right-column,.content-text,.post-new .prefix {display: none}
