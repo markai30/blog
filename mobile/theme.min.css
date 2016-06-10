@@ -75,3 +75,7 @@ a,a:hover,a:active {text-decoration: inherit;cursor: pointer;}
 .line-header.author-time {float: right;padding: 0 5px;}
 .post_header {padding: 0 5px;width: inherit;}
 .load-post-img img {border-right: 1px solid #ccc;}
+a[href$="#framepost"] {font-size: 0;margin: 5px auto;display: block;width: 100%;position: relative;min-height: 300px;background: black;text-align: center;}
+a[href$="#framepost"] iframe {position: relative;z-index: 2;margin: 0 auto;display: block}
+a[href$="#framepost"]:before {z-index: 1;content: "\f1ce";font-family: FontAwesome;color: #9A9898;display: inline-block;font-size: 100px;-webkit-animation: fa-spin 2s infinite linear;animation: fa-spin 2s infinite linear;position: absolute;top: 22%;margin-left: -50px;}
+a[href$="#framepost"]:after{content: "Chờ chút nhé";position: absolute;top: 30%;font-size: 20px;left: 0;right: 0;margin-top: 110px;color: white;font-weight: bold;}
