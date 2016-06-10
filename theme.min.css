@@ -177,8 +177,10 @@ a.btt-network {border: 1px solid #ccc!important}
 .pathname-box a:after {content: " / ";display: inline-block;color: black;margin: 0 5px;}
 .content-post img {display: block;margin: auto;max-width: 100%}
 #info_open a[href^="/modcp"] {font-size: 14px;display: block;padding: 10px}
-a[href$="#framepost"] {font-size:0;margin: 5px auto;display: block;width: 100%;position: relative}
+a[href$="#framepost"] {font-size: 0;margin: 5px auto;display: block;width: 100%;position: relative;min-height: 300px;background: black;text-align: center;}
 a[href$="#framepost"] iframe {position: relative;z-index: 2;margin: 0 auto;display: block}
+a[href$="#framepost"]:before {z-index: 1;content: "\f1ce";font-family: FontAwesome;color: #9A9898;display: inline-block;font-size: 100px;-webkit-animation: fa-spin 2s infinite linear;animation: fa-spin 2s infinite linear;position: absolute;top: 22%;margin-left: -50px;}
+a[href$="#framepost"]:after{content: "Chờ chút nhé";position: absolute;top: 30%;font-size: 20px;left: 0;right: 0;margin-top: 110px;color: white;font-weight: bold;}
 /* Tag Box */
 #tags-post {background: white;padding: 10px;margin-bottom: 10px}
 .tag-title {font-size: 20px;}
@@ -316,7 +318,6 @@ code:before {content: "Code: ";display: block;border-bottom: 1px solid;font-size
 .item-tags.select {background: red;color: white;}
 #ads-bottom + div[style^="overflow"] {overflow: hidden!important;}
 #ads-bottom + div[style^="overflow"] iframe {width: 100%!important;}
-a[href*="vcplayer"][href$="#framepost"] {position: relative;text-align: center;min-height: 300px;}
 /* Mobile */
 @media screen and (max-width:799px) {
 #page-top,#right-column,.content-text,.post-new .prefix {display: none}
