@@ -1,5 +1,7 @@
 /* Default */
-
+@-moz-keyframes carousel{0%{ left:0; }11%{ left:0; }12.5% { left:0; }23.5% { left:0; }25%{ left:0; }36%{ left:0; }37.5% { left:0; }48.5% { left:0; }50%{ left:0; }61%{ left:0; }62.5% { left:0; }73.5% { left:-100%;}75%{ left:-200%;}86%{ left:-300%;}87.5% { left:-200%;}98.5% { left:-100%;}100%{ left:0; }}
+@keyframes carousel{0%{ left:0; }11%{ left:0; }12.5% { left:0; }23.5% { left:0; }25%{ left:0; }36%{ left:0; }37.5% { left:0; }48.5% { left:0; }50%{ left:0; }61%{ left:0; }62.5% { left:0; }73.5% { left:-100%;}75%{ left:-200%;}86%{ left:-300%;}87.5% { left:-200%;}98.5% { left:-100%;}100%  { left:0; }}
+@-webkit-keyframes carousel{0%{ left:0; }11%{ left:0; }12.5% { left:0; }23.5% { left:0; }25%{ left:0; }36%{ left:0; }37.5% { left:0; }48.5% { left:0; }50%{ left:0; }61%{ left:0; }62.5% { left:0; }73.5% { left:-100%;}75%{ left:-200%;}86%{ left:-300%;}87.5% { left:-200%;}98.5% { left:-100%;}100%  { left:0; }}
 @keyframes loadtext {from {width:0px}to {width: 42px}}
 @-moz-keyframes loadtext {from {width:0px}to {width: 42px}}
 @-webkit-keyframes loadtext {from {width:0px}to {width: 42px}}
@@ -193,7 +195,7 @@ a[href$="#framepost"]:after{content: "Chờ chút nhé";position: absolute;top: 
 .row-line {display: block}
 .table-modcp,.row-line {float: left;display: block;width: 100%}
 .table-modcp .row-line{
-   margin-bottom: 10px}
+margin-bottom: 10px}
 .head-table {padding: 10px 0}
 form[name="manage"] .row-line {background: white}
 .row-line .col-md-2 {text-align: center;min-height: 40px;line-height: 40px}
@@ -233,7 +235,7 @@ form[name="manage"] .row-line {background: white}
 .row-topic-right .img-title {position: relative}
 .row-topic-right .prefix:before,.row-topic-right .prefix:after,.post-new .prefix:before,.post-new .prefix:after {content: "";position: absolute;background: #CC181E;width: 14px;height: 14px;z-index: 3;top: 5px;right: -8px;transform: rotate(137deg);}
 .row-topic-right .prefix:before,.post-new .prefix:before {width: 16px;background: #CC181E;height: 12px;left: 6px;transform: rotate(135deg);z-index: 0;top: 16px}
-.row-topic-right .prefix div,.post-new .prefix div{    position: relative;z-index: 4;background: #CC181E;padding: 0 10px;}
+.row-topic-right .prefix div,.post-new .prefix div{position: relative;z-index: 4;background: #CC181E;padding: 0 10px;}
 .row-topic-right .text-title {font-size: 14px;position: absolute;bottom: 10px;z-index: 5;color: white;padding: 5px;background: rgba(0, 0, 0, 0.45);left: 0;right: 0;text-align: center}
 .link-full-post {display: block;position: absolute;width: 40%;height: 100%;}
 .content-news {position: relative;min-height: 170px;}
@@ -247,18 +249,19 @@ form[name="manage"] .row-line {background: white}
 .post-new .prefix {top: 20px;left: -14px}
 .row-topic-right {display: block}
 .row-topic-right:nth-child(7), .row-topic-right:nth-child(8), .row-topic-right:nth-child(9), .row-topic-right:nth-child(10), .row-topic-right:nth-child(11) {display: none!important}
-.video-top {float: left;display: block;width: 100%;text-align: center;}
+.video-top {position: absolute;right: 0;float: left;display: block;width: 100%;text-align: center;}
 .video-top .row-topic-right {display: inline-block;height: 200px;overflow: hidden;background: none}
 .video-top .row-topic-right {width: 31.333333%;margin-right: 10px}
 .head-right,#page-body .blog-title {border-bottom: 2px solid #25AF61;margin-bottom: 10px;line-height: inherit;font-weight: inherit;font-family: inherit;}
 .head-right .h3, #page-body .blog-title a {margin: 0;background: #25AF61;display: inline-block;padding: 5px 10px;color: white}
 #page-top .img-title-view {height: 200px;opacity: 0}
+#page-top {min-height: 260px;overflow: hidden;}
 .btt-youtube {position: absolute;top: 45%;left: 0;right: 0;display: inline-block;width: 63px;background: rgba(0, 0, 0, 0.43);color: white;height: 40px;line-height: 40px;border-radius: 6px;margin: 0 auto;z-index: 10;text-align: center;display: none}
 .img-title[data*="Video"]:hover .btt-youtube {background: #CC181E}
 .img-title[data*="Video"] .btt-youtube {display: inline-block}
 .title-blog-view {border-bottom: 2px solid #25AF61;line-height: inherit;text-transform: none;font-weight: inherit}
 .right-keywork-topic .row-topic-right {background: white;padding: 5px}
-
+.row-video-top {-webkit-animation: carousel 30s infinite;-moz-animation: carousel 30s infinite;animation: carousel 30s infinite;z-index: 999;}
 /* quote */
 blockquote {background: #FFF;border: 1px solid #DDD;color: #333;position: relative;margin: 5px auto!important;padding: 10px 15px!important;border-left: 1px solid #ddd!important;width: 95%}
 blockquote cite {font-size: 13px;font-weight: 700;margin: 0!important;border-bottom: 1px solid}
