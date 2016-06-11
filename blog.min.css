@@ -186,7 +186,7 @@ a[href$="#framepost"]:after{content: "Chờ chút nhé";position: absolute;top: 
 /* Tag Box */
 #tags-post {background: white;padding: 10px;margin-bottom: 10px}
 .tag-title {font-size: 20px;}
-.tags-list {margin: 4px 4px;padding: 0px 0px 0px 14px;color: white;background: none repeat scroll 0 0 #EE7407;position: relative;display: inline-block;font-size: 12px;width: 90px;white-space: nowrap;overflow-x: hidden;text-overflow: ellipsis;text-align: center;}
+.tags-list {margin: 4px 4px;padding: 0px 4px 0px 14px;color: white;background: none repeat scroll 0 0 #EE7407;position: relative;display: inline-block;font-size: 12px;white-space: nowrap;overflow-x: hidden;text-overflow: ellipsis;}
 .tags-list:before {content: "";display: inline-block;background: none repeat scroll 0 0 #D66806;position: absolute;top: 0;left: -3px;bottom: 0;width: 15px;}
 .tags-list:after {content: "●";position: absolute;left: 2px;top:0;}
 .tags-list:hover {color: white;opacity: 0.8}
@@ -261,7 +261,7 @@ form[name="manage"] .row-line {background: white}
 .img-title[data*="Video"] .btt-youtube {display: inline-block}
 .title-blog-view {border-bottom: 2px solid #25AF61;line-height: inherit;text-transform: none;font-weight: inherit}
 .right-keywork-topic .row-topic-right {background: white;padding: 5px}
-.row-video-top {-webkit-animation: carousel 30s infinite;-moz-animation: carousel 30s infinite;animation: carousel 30s infinite;z-index: 999;}
+.row-video-top {-webkit-animation: carousel 15s infinite;-moz-animation: carousel 15s infinite;animation: carousel 15s infinite;z-index: 999;}
 /* quote */
 blockquote {background: #FFF;border: 1px solid #DDD;color: #333;position: relative;margin: 5px auto!important;padding: 10px 15px!important;border-left: 1px solid #ddd!important;width: 95%}
 blockquote cite {font-size: 13px;font-weight: 700;margin: 0!important;border-bottom: 1px solid}
